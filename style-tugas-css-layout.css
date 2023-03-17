@@ -1,0 +1,146 @@
+body {
+    background-color: #fafafa;
+    font-family: system-ui;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+}
+
+.bagian-gambarhp {
+    width: 40%;
+}
+
+.IG-di-hp {
+    margin-left: 8px;
+    width: 122%;
+}
+
+.bagian-login {
+    width: 49%;
+}
+
+.kotakform {
+    border-style: solid;
+    text-align: center;
+    background-color: white;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    margin-left: 35px;
+}
+
+.form {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.logonamaIG {
+    margin-top: 45px;
+    width: 179px;
+    margin-bottom: 12px;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    background-color: #f8f8ff;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    padding: 4px 4px 4px 9px;
+    margin-top: 8px;
+}
+
+.tombol {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 264px;
+    height: 31px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #00b9f6e8;
+    color: white;
+}
+
+.garis-OR {
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: grey;
+    display: flex;
+    font-size: 14px;
+
+}
+.login-with-fb {
+    color: darkblue;
+    font-size: 14px;
+}
+
+.logo-fb {
+    width: 15px;
+    margin-right: 2px;
+}
+
+.forgot-pw {
+    padding-top: 15px;
+    color: darkblue;
+    font-size: 12px;
+}
+
+.kotakform2 {
+    border-style: solid;
+    text-align: center;
+    padding-top: 8px;
+    background-color: white;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    margin-left: 35px;
+    margin-top: 10px;
+    height: 55px;
+}
+
+.link-signUp {
+    color: #00a8f6;
+    font-weight: 500;
+}
+
+.donlodapk {
+    display: flex;
+}
+
+.appstore {
+    width: 150px;
+    margin-left: 55px;
+    padding: 0px;
+}
+
+.Gplaystore {
+    width: 150px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.footer-content {
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    line-height: 8px;
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+
+.pilihbahasa {
+    border: 0px;
+    background-color: #fafafa;
+}
