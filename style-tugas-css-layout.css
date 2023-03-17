@@ -32,7 +32,7 @@ body {
     margin-left: 35px;
 }
 
-.form {
+form {
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -43,7 +43,7 @@ body {
     margin-bottom: 12px;
 }
 
-.input {
+form input {
     width: 250px;
     height: 30px;
     background-color: #f8f8ff;
@@ -58,19 +58,47 @@ body {
     margin-bottom: 5px;
     width: 264px;
     height: 31px;
-    border: 0px;
+    border: none;
     border-radius: 7px;
     background-color: #00b9f6e8;
     color: white;
+    cursor: pointer;
 }
 
-.garis-OR {
-    margin: 15px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    color: grey;
-    display: flex;
-    font-size: 14px;
+div button:active {
+    background: #2c58fe;
+    transform: scale(0.995);
+}
 
+form .option{
+    color: grey;
+    margin: 10px 0;
+    position: relative;
+    font-size: 12px;
+}
+
+form .option::before{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 5px;
+    background: white;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+form .option::after{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 5px;
+    background: white;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
 }
 
 .login-with-fb {
